@@ -27,12 +27,6 @@ font-family: "Comfortaa";
     background-color: #ffffff;
 }
 
-p{
-    text-align: center;
-    font-size: 30px;
-    color: #fc4b03;
-}
-
 .mascot{
     width: 140px;
     height: 70px;
@@ -128,13 +122,15 @@ div img
     top: 25px;
     position: fixed;
 }
-
+.card{
+    display: block;
+}
 .card2
 {
     position:relative;
     width: 1100px;
     height: 200px;
-    bottom: 75px;
+    bottom: 350px;
     left: 125px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -147,22 +143,48 @@ div img
     font-weight:900;
     font-size: 24px;
     text-align: left;
-    padding-left: 40px;
+    margin-left: 40px;
     padding-top: 40px;
+    color: #fc4b03;
 
 }
+.text2
+{
+    position:absolute;
+    display: block;
+    bottom: 60px;
+    font-family: Comfortaa;
+    font-weight:900;
+    font-size: 21px;
+    word-spacing: 0.9px;
+    left: 520px;
+    bottom: 135px;
+    color: #000000;
+}
 
+.text3
+{
+    position:absolute;
+    font-family: Comfortaa;
+    font-size: 14px;
+    left: 520px;
+    bottom: 100px;
+    color: #808080;
+    vertical-align: text-top;
+}
 .urtick
 {
-    bottom: 45px;
-    left: 70px;
-    padding-left: 200px;
-    width: 20.5%;
+    bottom: 65px;
+    right: 40px;
+    width: 20px;
     height: auto;
 }
 
 label{
+    float: left;
     text-align: left;
+    bottom: 40px;
+    display:flex;
 }
 
 .stuff
@@ -171,6 +193,7 @@ label{
     font-family: Comfortaa;
     padding-left: 40px;
     display: block;
+    bottom: 40px;
 }
 
 .search-box2
@@ -180,22 +203,58 @@ label{
     width: 350px;
     height: 40px;
     background-color: #ffffff;
-    margin-left: 40px;
     border: 1px;
     padding-left: 20px;
     padding-right: 40px;
     border-radius: 5px;
     border-color: #d1d3d4;
     border-style:solid;
+    position: relative;
+    display: block;
+    right: 275px;
 }
 
 .Border2
 {
     width: 1px;
-    height: 120px;
+    height: 150px;
     background-color: #d1d3d4;
-    margin-left: 750px;
-    bottom: 100px;
+    margin-left: 500px;
+    bottom: 150px;
     position: relative;
 
+}
+
+.text1:hover
+{
+    color: #fc4b03;
+    text-decoration: underline;
+}
+
+.carousel
+{
+    display: block;
+    bottom: 350px;
+}
+
+.carousel-inner img {
+    width: 40%;
+    height: 40%;
+    display: block;
+    left: 405px;
+  }
+
+  .carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-control-prev
+{
+    opacity: 50%;
+}
+
+.carousel-control-prev:hover
+{
+    opacity: 100%;
+    transition: 0.3s ease;
 }
