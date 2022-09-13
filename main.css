@@ -128,10 +128,13 @@ div img
 .card2
 {
     position:relative;
+    align-items: center;
     width: 1100px;
     height: 200px;
     bottom: 350px;
     left: 125px;
+    bottom: 75px;
+    left: 15%;
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -199,8 +202,8 @@ label{
 .search-box2
 {
     font-family: Century Gothic;
-    font-size: 11px;
-    width: 350px;
+    font-size: 14px;
+    width: 400px;
     height: 40px;
     background-color: #ffffff;
     border: 1px;
